@@ -1,6 +1,6 @@
 package pro.sky.java.course1.lesson2;
 
-public class number5 {
+public class Number5 {
     public static void main(String[] args) {
         int monthNumber = 12;
         switch (monthNumber) {

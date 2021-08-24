@@ -1,6 +1,6 @@
 package pro.sky.java.course1.lesson2;
 
-public class number1 {
+public class Number1 {
     public static void main(String[] args) {
         int clientOS = 1;
         if (clientOS == 1) {

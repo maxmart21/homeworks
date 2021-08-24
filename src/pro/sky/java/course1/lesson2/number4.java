@@ -1,14 +1,18 @@
 package pro.sky.java.course1.lesson2;
 
-public class number4 {
+public class Number4 {
     public static void main(String[] args) {
         int deliveryDistance = 95;
-        if (deliveryDistance < 20) {
-            System.out.println("Доставка составит 1 день");
-        } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
-            System.out.println("Доставка составит 2 дня");
+        int minTime = 1;
+        if (deliveryDistance > 20 && deliveryDistance < 60) {
+            int timeForDelivery = minTime + 1;
+            System.out.println("Доставка составит " + timeForDelivery + " дня");
+        } else if (deliveryDistance >= 60) {
+            int timeForDelivery = minTime + 2;
+            System.out.println("Доставка составит " + timeForDelivery + " дня");
         } else {
-            System.out.println("Доставка составит 3 дня");
+            int timeForDelivery = minTime;
+            System.out.println("Доставка составит " + timeForDelivery + " день");
         }
     }
 }
