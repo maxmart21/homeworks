@@ -2,13 +2,13 @@ package pro.sky.java.course1.lesson2;
 
 public class Number1 {
     public static void main(String[] args) {
-        int clientOS = 1;
-        if (clientOS == 1) {
-            System.out.println("Установите версию приложения для Android по ссылке.");
-        } else if (clientOS == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке.");
-        } else {
-            System.out.println("Извините, Ваша ОС не подходит для скачивания.");
-        }
+        byte a = 1;
+        short b = 366;
+        int c = 15276;
+        long d = 124562L;
+        float e = 1.01f;
+        double f = 24.16;
+        char g = 613;
+        boolean h = true;
     }
 }

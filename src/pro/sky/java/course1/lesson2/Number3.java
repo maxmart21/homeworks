@@ -2,11 +2,19 @@ package pro.sky.java.course1.lesson2;
 
 public class Number3 {
     public static void main(String[] args) {
-        int year = 2021;
-        if (year % 4 != 0 || year % 100 == 0 && year % 400 != 0) {
-            System.out.println("Год является обычным");
-        } else {
-            System.out.println("Год является високосным");
-        }
+        short bananaWeight = 80;
+        short milkWeight = 105;
+        short iceCreamWeight = 100;
+        short rawEggWeight = 70;
+        int allBananasWeight = bananaWeight * 5;
+        int allMilkWeight = milkWeight * 2;
+        int allIceCreamWeight = iceCreamWeight * 2;
+        int allRawEggsWeight = rawEggWeight * 4;
+        int breakfastWeight = allBananasWeight + allMilkWeight + allIceCreamWeight + allRawEggsWeight;
+        float kg = 1000f;
+        float finalWeight = breakfastWeight / kg;
+        System.out.println("Общий вес продуктов " + finalWeight + " кг");
+
     }
+
 }

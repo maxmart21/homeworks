@@ -1,4 +1,4 @@
-package pro.sky.java.course1.lesson1;
+package pro.sky.java.course1.lesson2;
 
 public class Number7 {
     public static void main(String[] args) {
